@@ -1,0 +1,264 @@
+body {
+  background-image: linear-gradient(to left, #9ae4ff, rgb(21, 14, 238));
+}
+a {
+  background-color: rgb(128, 112, 216);
+  margin: 10px 10px;
+  padding: 20px;
+  border-radius: 30px;
+}
+/*-------------Navbar Section--------------------*/
+ul {
+  list-style-type: none;
+  display: flex;
+  position: relative;
+  left: 1300px;
+  margin: 0px;
+}
+.Menu,
+a {
+  text-decoration: none;
+  flex-direction: row;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  font-family: "Pacifico", cursive;
+}
+a:hover {
+  color: blue;
+}
+/*----------------landingPage-----------------*/
+.bigContainer_landingPage {
+  position: relative;
+}
+.linkPage a {
+  position: absolute;
+  top: 401px;
+  left: 930px;
+}
+.linkPage a:hover {
+  font-size: 50px;
+}
+.name {
+  color: white;
+  text-align: center;
+}
+.header_text_landingPage h1 {
+  font-size: 50px;
+  margin-top: 160px;
+  font-weight: bold;
+}
+.container_header_landingPage h2 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+.landingPage_img {
+  position: relative;
+}
+.landingPage_img1 img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 814px;
+}
+.landingPage_img2 img {
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  left: 1000px;
+  top: 5px;
+}
+
+/*-----------------allProductsPage------------------*/
+.head_text_allProducts {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+.container_allProductsPage {
+  position: relative;
+}
+.department_split {
+}
+.x-ray_department {
+  display: flex;
+}
+.x-ray_department img {
+  width: 50%;
+  border-radius: 30px;
+  margin-top: 58px;
+  margin-left: 150px;
+}
+.x-ray_department a {
+  position: absolute;
+  left: 651px;
+  top: 378px;
+}
+.x-ray_details {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  left: 1100px;
+  padding: 20px;
+  margin-right: 20px;
+}
+.list_x-ray {
+}
+
+/*---Surgery-----*/
+.surgery_department img {
+  width: 50%;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 58px;
+  margin-left: 307px;
+}
+.surgery_department a {
+}
+.surgery_details {
+}
+/*---Dental-----*/
+.Dental_department img {
+  width: 50%;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 58px;
+  margin-left: 307px;
+}
+.Dental_department a {
+}
+.surgery_details {
+}
+/*---------------loginPage--------------------------*/
+.head_text_login h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.head_text_login p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+a.registration_link {
+  margin-left: 900px;
+  font-size: 20px;
+}
+.login_form h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.login_form {
+  text-align: center;
+  margin-left: 100px;
+}
+.login_form input {
+  height: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+.login_form button {
+  padding: 10px;
+  background-color: yellow;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login_form button:hover {
+  background-color: green;
+}
+.SeeDoc_text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.SeeDoc_text a {
+  display: inline-block;
+  background-color: rgb(128, 112, 216);
+  border-radius: 30px;
+  color: white;
+  font-family: "Pacifico", cursive;
+}
+
+.SeeDoc_text a:hover {
+  color: blue;
+}
+
+/*---------------singleProductPage--------------------------*/
+.head_text_singleProducts h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+.bigContainer_singleProductsPage {
+  margin-top: 50px;
+  position: relative;
+}
+.docProfile {
+  display: flex;
+  flex-direction: row;
+}
+.docProfile_img img {
+  width: 500px;
+  height: 430px;
+  border-radius: 30px;
+  margin-left: 20px;
+  position: absolute;
+  top: 50px;
+  left: 376px;
+}
+.doctor_details {
+  position: absolute;
+  width: 40%;
+  left: 1000px;
+}
+.connectDoc a {
+  position: absolute;
+  top: 500px;
+  left: 811px;
+}
+/*---------------Registration Page--------------------------*/
+
+.container_registration,
+.header_registration,
+.main_registration,
+.form_registration {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.form_registration input {
+  height: 20px;
+  margin: 10px;
+  padding: 5px;
+}
+.form_registration {
+  width: 50%;
+  border: dotted 5px yellow;
+  margin-left: 500px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+#register_button {
+  margin-left: 100px;
+  padding: 10px;
+}
+#register_button button {
+  padding: 10px;
+  background-color: yellow;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+#register_button button:hover {
+  background-color: green;
+}
+.link_signin {
+  margin-left: 150px;
+  margin-top: 50px;
+}
